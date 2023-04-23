@@ -1,0 +1,8 @@
+<svg width="300" height="200">
+    <polygon points="150 40, 219.2820323027551 160, 80.7179676972449 160" fill="blue" />
+    <text text-anchor="middle"
+                            style="font: 40px;" 
+                            fill="white" 
+                            x="150" 
+                            y="100"
+                        > ABC </text></svg>
