@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/austinzumbro/svg-logo-generator/issues"
   },
-  "homepage": "https://github.com/austinzumbro/svg-logo-generator#readme"
+  "homepage": "https://github.com/austinzumbro/svg-logo-generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "jest": "^29.5.0"
+  }
 }
