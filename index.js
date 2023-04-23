@@ -1,15 +1,14 @@
 const fs = require("fs");
 const CLI = require("./lib/cli");
-const FileWriter = require("./lib/writeToFile");
+const ShapeParser = require("./lib/parser");
 
 const cli = new CLI;
-const filewriter = new FileWriter;
+const shapeParser = new ShapeParser;
 
 function init() {
     cli.getInput()
         .then((response) => {
-            let svg = filewriter.parseResponse(response);
-            console.log(svg);
+            let svg = shapeParser.parseResponse(response);
             return svg;
         })
         .then((svg) => {
