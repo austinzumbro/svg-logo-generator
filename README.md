@@ -18,6 +18,9 @@ e. Logo Width _(default 300)_
 f. Logo Height _(default 200)_  
 4. Unless an error is thrown, the SVG meeting those specifications is written to the `/dist` directory.
 
+### See it in Use
+![App in Use](/examples/app-in-use.gif)
+
 ---
 ## My Approach
 
