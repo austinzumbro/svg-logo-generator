@@ -31,10 +31,10 @@ describe('Shape Behavior', () => {
             const height = 200;
             const shapeColor = "blue";
             const text = "123";
-            const textColor = "white";
+            const textColor = "#FFFFFF";
             const square = new Square(width, height, shapeColor, text, textColor);
             let svg = square.render();
-            expect(svg).toBe(`<svg width="300" height="200"> <rect x="90" y="40" width="120" height="120" fill="blue" /> <text text-anchor="middle" alignment-baseline="middle" font-size="40" fill="white" x="150" y="105" > 123 </text></svg>`);
+            expect(svg).toBe(`<svg width="300" height="200"> <rect x="90" y="40" width="120" height="120" fill="blue" /> <text text-anchor="middle" alignment-baseline="middle" font-size="40" fill="#FFFFFF" x="150" y="105" > 123 </text></svg>`);
         })
     })
 
